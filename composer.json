@@ -1,0 +1,25 @@
+{
+  "name": "visiosoft/url_file_downloader-extension",
+  "type": "streams-addon",
+  "autoload": {
+    "psr-4": {
+      "Visiosoft\\UrlFileDownloaderExtension\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Visiosoft, LTD.",
+      "email": "support@visiosoft.com.tr",
+      "homepage": "https://visiosoft.com.tr/",
+      "role": "Owner"
+    },
+    {
+      "name": "Vedat Akdoğan",
+      "email": "vedat@visiosoft.com.tr",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@openclassify.com"
+  }
+}
