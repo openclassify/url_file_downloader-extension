@@ -59,7 +59,7 @@ class UrlFileDownloaderExtension extends Extension
 
         $originalName = $name . '.' . $extension;
 
-        $mimeType = \GuzzleHttp\Psr7\mimetype_from_filename($path);
+        $mimeType = \GuzzleHttp\Psr7\MimeType::fromFilename($path);
 
         $object = new UploadedFile($path, $originalName, $mimeType, null, false);
 
